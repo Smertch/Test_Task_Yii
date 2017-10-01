@@ -934,208 +934,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_bootstrap.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_steps/RootWatcherSteps.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/wercker.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.scrutinizer.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.travis.install.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/phpmd.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/phpunit.xml.dist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/AbstractClassAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/FinalExceptionAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/PharAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/SimpleSerializableAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/UnCloneableAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/tests/DoctrineTest/InstantiatorTestAsset/XMLReaderAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/CREDITS" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/INSTALL.fr.utf8" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/TODO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/WYSIWYG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/ConfigDoc/HTMLXSLTProcessor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/FSTools.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/HTMLPurifierExtras.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.includes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.path.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Arborize.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrCollections.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/BackgroundPosition.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/DenyElementDecorator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Filter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Font.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Ident.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/ListStyle.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Multiple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Percentage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/TextDecoration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Clone.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Enum.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Length.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/MultiLength.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Nmtokens.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Lang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Switch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email/SimpleCheck.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/BgColor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/BoolToCSS.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/EnumToCSS.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/NameSync.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Nofollow.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/SafeEmbed.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/ScriptRequired.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrValidator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Bootstrap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Empty.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/List.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Required.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Builder/ConfigSchema.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Interchange/Id.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/InterchangeBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Validator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.AllowedRel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.AllowedRev.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.DefaultInvalidImage.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.DefaultTextDir.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.EnableID.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.ID.HTML5.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.IDBlacklistRegexp.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.AutoParagraph.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.Custom.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.DisplayLinkURI.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.Linkify.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveSpansWithoutAttributes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.AllowedFonts.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.DefinitionRev.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.Trusted.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.AggressivelyFixLt.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.DirectLexLineNumberSyncInterval.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.EnableIDNA.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.EscapeInvalidChildren.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.MaintainLineNumbers.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.RemoveScriptContents.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.Custom.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.Escaping.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.Scope.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.YouTube.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.AllowedComments.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Attr.Name.UseCDATA.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.CustomDoctype.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Doctype.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.FlashAllowFullScreen.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.ForbiddenElements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Nofollow.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.SafeEmbed.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.SafeIframe.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TargetBlank.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TargetNoreferrer.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TidyAdd.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Trusted.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Output.FixInnerHTML.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.Base.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.Disable.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.DisableExternal.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.Host.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.MakeAbsolute.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.Munge.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.MungeSecretKey.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.OverrideAllowedSchemes.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/info.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Context.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator/Memory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ElementDef.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/EntityLookup.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ErrorCollector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ErrorStruct.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Generator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/IDAccumulator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Language.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/LanguageFactory.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Length.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/DirectLex.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/PH5P.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/PercentEncoder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Printer/CSSDefinition.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Printer/ConfigForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/PropertyListIterator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/RemoveForeignElements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/ValidateAttributes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/StringHash.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token/Comment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token/Empty.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIDefinition.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/DisableResources.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/Munge.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/SafeIframe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/news.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/nntp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/tel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URISchemeRegistry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/UnitConverter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParserException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/PH5P.patch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/PH5P.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/common.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/compile-doxygen.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/flush-definition-cache.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/flush.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-entity-file.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-ph5p-patch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-standalone.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/merge-library.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/old-remove-require-once.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/old-remove-schema-def.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/update-config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/phpdoc.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/modx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/INSTALL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/config.default.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/info.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/settings/migrate-sigs-form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/settings/migrate-sigs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/test-settings.sample.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/.travis.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/fzaninotto/faker/CHANGELOG.md" />
@@ -4323,7 +4121,7 @@
       <workItem from="1506609292984" duration="32632000" />
       <workItem from="1506760532481" duration="15403000" />
       <workItem from="1506786593129" duration="421000" />
-      <workItem from="1506841996924" duration="562000" />
+      <workItem from="1506841996924" duration="643000" />
     </task>
     <task id="LOCAL-00001" summary="testTask">
       <created>1506841479662</created>
@@ -4343,7 +4141,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84171000" />
+    <option name="totallyTimeSpent" value="84252000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
