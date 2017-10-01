@@ -30,11 +30,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/arrow.gif" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-gii/assets/logo.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/captcha/SpicyRice.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/codeception.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/.gitattributes" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/.gitignore" />
@@ -939,17 +934,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_bootstrap.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_steps/RootWatcherSteps.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/wercker.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/docs/GlobalConfig.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/src/Codeception/Specify/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/src/Codeception/Specify/ConfigBuilder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/tests/ConfigTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/tests/ObjectPropertyTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/specify/tests/_bootstrap.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/.travis.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/LICENSE" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/RoboFile.php" />
@@ -958,10 +942,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/tests/assets/equal-json-test-file.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/tests/assets/format-file.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/tests/assets/json-test-file.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.scrutinizer.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.travis.install.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.travis.yml" />
@@ -3875,18 +3855,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/Spaceless.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/yii" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/yii.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/layouts/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/addImagesForm.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/error.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/site/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/assets/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/testTask/assets/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/testTask/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/testTask/js/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yii" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -4363,7 +4331,7 @@
       <workItem from="1506609292984" duration="32632000" />
       <workItem from="1506760532481" duration="15403000" />
       <workItem from="1506786593129" duration="421000" />
-      <workItem from="1506841996924" duration="341000" />
+      <workItem from="1506841996924" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="testTask">
       <created>1506841479662</created>
@@ -4383,7 +4351,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83950000" />
+    <option name="totallyTimeSpent" value="84085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -4656,6 +4624,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4677,6 +4646,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4684,6 +4654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4777,6 +4748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
