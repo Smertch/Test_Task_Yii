@@ -934,14 +934,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_bootstrap.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/tests/web/_steps/RootWatcherSteps.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/base/wercker.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/RoboFile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/composer.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/tests/VerifyTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/tests/assets/equal-json-test-file.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/tests/assets/format-file.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/codeception/verify/tests/assets/json-test-file.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.scrutinizer.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.travis.install.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/doctrine/instantiator/.travis.yml" />
@@ -4331,7 +4323,7 @@
       <workItem from="1506609292984" duration="32632000" />
       <workItem from="1506760532481" duration="15403000" />
       <workItem from="1506786593129" duration="421000" />
-      <workItem from="1506841996924" duration="476000" />
+      <workItem from="1506841996924" duration="562000" />
     </task>
     <task id="LOCAL-00001" summary="testTask">
       <created>1506841479662</created>
@@ -4351,7 +4343,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84085000" />
+    <option name="totallyTimeSpent" value="84171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
