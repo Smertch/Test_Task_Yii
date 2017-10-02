@@ -18,26 +18,16 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
         'y' => 
         array (
             'yii\\swiftmailer\\' => 16,
-            'yii\\jui\\' => 8,
             'yii\\gii\\' => 8,
             'yii\\faker\\' => 10,
             'yii\\debug\\' => 10,
             'yii\\composer\\' => 13,
             'yii\\bootstrap\\' => 14,
             'yii\\' => 4,
-            'yii2mod\\rbac\\' => 13,
-        ),
-        't' => 
-        array (
-            'timurmelnikov\\widgets\\' => 22,
         ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
-        ),
-        'm' => 
-        array (
-            'mdm\\admin\\' => 10,
         ),
         'k' => 
         array (
@@ -47,10 +37,6 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
         'f' => 
         array (
             'fedemotta\\datatables\\' => 21,
-        ),
-        'd' => 
-        array (
-            'dosamigos\\arrayquery\\' => 21,
         ),
         'c' => 
         array (
@@ -107,10 +93,6 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-swiftmailer',
         ),
-        'yii\\jui\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2-jui',
-        ),
         'yii\\gii\\' => 
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
@@ -135,23 +117,11 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
         array (
             0 => __DIR__ . '/..' . '/yiisoft/yii2',
         ),
-        'yii2mod\\rbac\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yii2mod/yii2-rbac',
-        ),
-        'timurmelnikov\\widgets\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/timurmelnikov/yii2-panel-menu',
-        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-        ),
-        'mdm\\admin\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/mdmsoft/yii2-admin',
         ),
         'kartik\\sidenav\\' => 
         array (
@@ -164,10 +134,6 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
         'fedemotta\\datatables\\' => 
         array (
             0 => __DIR__ . '/..' . '/fedemotta/yii2-widget-datatables',
-        ),
-        'dosamigos\\arrayquery\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/2amigos/yii2-arrayquery-component/src',
         ),
         'cebe\\markdown\\' => 
         array (

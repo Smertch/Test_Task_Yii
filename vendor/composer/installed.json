@@ -250,108 +250,6 @@
         ]
     },
     {
-        "name": "yiisoft/yii2",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/yiisoft/yii2-framework.git",
-            "reference": "a408e192198423c8d4206e4caf6a6bac878217aa"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a408e192198423c8d4206e4caf6a6bac878217aa",
-            "reference": "a408e192198423c8d4206e4caf6a6bac878217aa",
-            "shasum": ""
-        },
-        "require": {
-            "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
-            "bower-asset/jquery": "3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
-            "bower-asset/punycode": "1.3.*",
-            "bower-asset/yii2-pjax": "~2.0.1",
-            "cebe/markdown": "~1.0.0 | ~1.1.0",
-            "ext-ctype": "*",
-            "ext-mbstring": "*",
-            "ezyang/htmlpurifier": "~4.6",
-            "lib-pcre": "*",
-            "php": ">=5.4.0",
-            "yiisoft/yii2-composer": "~2.0.4"
-        },
-        "time": "2017-09-29T20:02:09+00:00",
-        "bin": [
-            "yii"
-        ],
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.0.x-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "yii\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Qiang Xue",
-                "email": "qiang.xue@gmail.com",
-                "homepage": "http://www.yiiframework.com/",
-                "role": "Founder and project lead"
-            },
-            {
-                "name": "Alexander Makarov",
-                "email": "sam@rmcreative.ru",
-                "homepage": "http://rmcreative.ru/",
-                "role": "Core framework development"
-            },
-            {
-                "name": "Maurizio Domba",
-                "homepage": "http://mdomba.info/",
-                "role": "Core framework development"
-            },
-            {
-                "name": "Carsten Brandt",
-                "email": "mail@cebe.cc",
-                "homepage": "http://cebe.cc/",
-                "role": "Core framework development"
-            },
-            {
-                "name": "Timur Ruziev",
-                "email": "resurtm@gmail.com",
-                "homepage": "http://resurtm.com/",
-                "role": "Core framework development"
-            },
-            {
-                "name": "Paul Klimov",
-                "email": "klimov.paul@gmail.com",
-                "role": "Core framework development"
-            },
-            {
-                "name": "Dmitry Naumenko",
-                "email": "d.naumenko.a@gmail.com",
-                "role": "Core framework development"
-            },
-            {
-                "name": "Boudewijn Vahrmeijer",
-                "email": "info@dynasource.eu",
-                "homepage": "http://dynasource.eu",
-                "role": "Core framework development"
-            }
-        ],
-        "description": "Yii PHP Framework Version 2",
-        "homepage": "http://www.yiiframework.com/",
-        "keywords": [
-            "framework",
-            "yii2"
-        ]
-    },
-    {
         "name": "bower-asset/bootstrap",
         "version": "v3.3.7",
         "version_normalized": "3.3.7.0",
@@ -694,58 +592,6 @@
             "code generator",
             "gii",
             "yii2"
-        ]
-    },
-    {
-        "name": "fzaninotto/faker",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/fzaninotto/Faker.git",
-            "reference": "2a1e07740c76b0c9da9c5708e8b3e927fc9a2796"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/2a1e07740c76b0c9da9c5708e8b3e927fc9a2796",
-            "reference": "2a1e07740c76b0c9da9c5708e8b3e927fc9a2796",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.3.3 || ^7.0"
-        },
-        "require-dev": {
-            "ext-intl": "*",
-            "phpunit/phpunit": "^4.0 || ^5.0",
-            "squizlabs/php_codesniffer": "^1.5"
-        },
-        "time": "2017-09-29T08:05:07+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.8-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Faker\\": "src/Faker/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "François Zaninotto"
-            }
-        ],
-        "description": "Faker is a PHP library that generates fake data for you.",
-        "keywords": [
-            "data",
-            "faker",
-            "fixtures"
         ]
     },
     {
@@ -2069,64 +1915,6 @@
         ]
     },
     {
-        "name": "symfony/debug",
-        "version": "3.4.x-dev",
-        "version_normalized": "3.4.9999999.9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/debug.git",
-            "reference": "24964d26e28a77b027c38f4d8208ef714221718a"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/debug/zipball/24964d26e28a77b027c38f4d8208ef714221718a",
-            "reference": "24964d26e28a77b027c38f4d8208ef714221718a",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "psr/log": "~1.0"
-        },
-        "conflict": {
-            "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
-        },
-        "require-dev": {
-            "symfony/http-kernel": "~2.8|~3.0|~4.0"
-        },
-        "time": "2017-09-15T10:58:45+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Debug\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Debug Component",
-        "homepage": "https://symfony.com"
-    },
-    {
         "name": "symfony/polyfill-mbstring",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -2294,236 +2082,6 @@
             "gherkin",
             "parser"
         ]
-    },
-    {
-        "name": "symfony/css-selector",
-        "version": "3.4.x-dev",
-        "version_normalized": "3.4.9999999.9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/css-selector.git",
-            "reference": "0fb45a835b60085d00ad92261829d2fd1243f01b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/css-selector/zipball/0fb45a835b60085d00ad92261829d2fd1243f01b",
-            "reference": "0fb45a835b60085d00ad92261829d2fd1243f01b",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "time": "2017-09-15T10:12:22+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\CssSelector\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Jean-François Simon",
-                "email": "jeanfrancois.simon@sensiolabs.com"
-            },
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony CssSelector Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/browser-kit",
-        "version": "3.4.x-dev",
-        "version_normalized": "3.4.9999999.9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/browser-kit.git",
-            "reference": "b75564b5d11cd7aef9528fcfc6a701ba26d5b6dc"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/browser-kit/zipball/b75564b5d11cd7aef9528fcfc6a701ba26d5b6dc",
-            "reference": "b75564b5d11cd7aef9528fcfc6a701ba26d5b6dc",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "symfony/dom-crawler": "~2.8|~3.0|~4.0"
-        },
-        "require-dev": {
-            "symfony/css-selector": "~2.8|~3.0|~4.0",
-            "symfony/process": "~2.8|~3.0|~4.0"
-        },
-        "suggest": {
-            "symfony/process": ""
-        },
-        "time": "2017-09-15T10:12:22+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\BrowserKit\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony BrowserKit Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/event-dispatcher",
-        "version": "3.4.x-dev",
-        "version_normalized": "3.4.9999999.9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/event-dispatcher.git",
-            "reference": "2766c22a2a7d2a8317c575c2912f61ed39684107"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/2766c22a2a7d2a8317c575c2912f61ed39684107",
-            "reference": "2766c22a2a7d2a8317c575c2912f61ed39684107",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "conflict": {
-            "symfony/dependency-injection": "<3.3"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~2.8|~3.0|~4.0",
-            "symfony/dependency-injection": "~3.3|~4.0",
-            "symfony/expression-language": "~2.8|~3.0|~4.0",
-            "symfony/stopwatch": "~2.8|~3.0|~4.0"
-        },
-        "suggest": {
-            "symfony/dependency-injection": "",
-            "symfony/http-kernel": ""
-        },
-        "time": "2017-09-15T10:12:22+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\EventDispatcher\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony EventDispatcher Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/finder",
-        "version": "3.4.x-dev",
-        "version_normalized": "3.4.9999999.9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/finder.git",
-            "reference": "e5f4d261720507565ff68235a70136fc662f727e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/e5f4d261720507565ff68235a70136fc662f727e",
-            "reference": "e5f4d261720507565ff68235a70136fc662f727e",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8"
-        },
-        "time": "2017-09-26T14:59:44+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Finder\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Finder Component",
-        "homepage": "https://symfony.com"
     },
     {
         "name": "psr/http-message",
@@ -2725,243 +2283,6 @@
         "description": "BDD code blocks for PHPUnit and Codeception"
     },
     {
-        "name": "bower-asset/jquery-ui",
-        "version": "1.11.4",
-        "version_normalized": "1.11.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/components/jqueryui.git",
-            "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-            "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-            "shasum": null
-        },
-        "require": {
-            "bower-asset/jquery": ">=1.6"
-        },
-        "type": "bower-asset",
-        "installation-source": "dist"
-    },
-    {
-        "name": "yiisoft/yii2-jui",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/yiisoft/yii2-jui.git",
-            "reference": "75e6f78010e9e9a60d7eecc58c8ad5655778535d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/75e6f78010e9e9a60d7eecc58c8ad5655778535d",
-            "reference": "75e6f78010e9e9a60d7eecc58c8ad5655778535d",
-            "shasum": ""
-        },
-        "require": {
-            "bower-asset/jquery-ui": "1.11.*@stable",
-            "yiisoft/yii2": "~2.0.4"
-        },
-        "time": "2017-08-01T19:29:58+00:00",
-        "type": "yii2-extension",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.0.x-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "yii\\jui\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Qiang Xue",
-                "email": "qiang.xue@gmail.com"
-            }
-        ],
-        "description": "The Jquery UI extension for the Yii framework",
-        "keywords": [
-            "jQuery UI",
-            "yii2"
-        ]
-    },
-    {
-        "name": "2amigos/yii2-arrayquery-component",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/2amigos/yii2-arrayquery-component.git",
-            "reference": "7bbcc4eb868ff30587768999e436d14b7979fec6"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/2amigos/yii2-arrayquery-component/zipball/7bbcc4eb868ff30587768999e436d14b7979fec6",
-            "reference": "7bbcc4eb868ff30587768999e436d14b7979fec6",
-            "shasum": ""
-        },
-        "require": {
-            "yiisoft/yii2": "~2.0.11"
-        },
-        "require-dev": {
-            "friendsofphp/php-cs-fixer": "^2.0",
-            "phpunit/phpunit": "~5.6",
-            "scrutinizer/ocular": "~1.1"
-        },
-        "time": "2017-07-05T14:40:16+00:00",
-        "type": "yii2-extension",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "dosamigos\\arrayquery\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "2amigOS! Consulting Group",
-                "email": "hola@2amigos.us",
-                "homepage": "http://2amigos.us",
-                "role": "Developer"
-            }
-        ],
-        "description": "Yii2 component that allows for searching/filtering the elements of an array.",
-        "homepage": "http://yiiwheels.com/extension/arrayquery-component",
-        "keywords": [
-            "2amigos",
-            "arrayquery",
-            "component",
-            "extension",
-            "yii",
-            "yii 2",
-            "yii2"
-        ]
-    },
-    {
-        "name": "yii2mod/yii2-rbac",
-        "version": "2.0",
-        "version_normalized": "2.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/yii2mod/yii2-rbac.git",
-            "reference": "053a991ffc7c9660a6bb1272de4f1c658c8eac7b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/yii2mod/yii2-rbac/zipball/053a991ffc7c9660a6bb1272de4f1c658c8eac7b",
-            "reference": "053a991ffc7c9660a6bb1272de4f1c658c8eac7b",
-            "shasum": ""
-        },
-        "require": {
-            "2amigos/yii2-arrayquery-component": "*",
-            "php": ">=5.6",
-            "yiisoft/yii2": "^2.0.8",
-            "yiisoft/yii2-jui": "*"
-        },
-        "require-dev": {
-            "friendsofphp/php-cs-fixer": "~2.0"
-        },
-        "time": "2017-02-08T13:25:19+00:00",
-        "type": "yii2-extension",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "yii2mod\\rbac\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Dmitry Semenov",
-                "email": "disemx@gmail.com"
-            },
-            {
-                "name": "Igor Chepurnoy",
-                "email": "igorzfort@gmail.com"
-            }
-        ],
-        "description": "RBAC management module for Yii2",
-        "keywords": [
-            "rbac gui",
-            "rbac management",
-            "rbac module",
-            "yii2",
-            "yii2 rbac",
-            "yii2-rbac"
-        ]
-    },
-    {
-        "name": "mdmsoft/yii2-admin",
-        "version": "dev-1.0.master",
-        "version_normalized": "dev-1.0.master",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/mdmsoft/yii2-admin.git",
-            "reference": "b1f172c01367843c9dcd664fb54d1694c25601f6"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/mdmsoft/yii2-admin/zipball/b1f172c01367843c9dcd664fb54d1694c25601f6",
-            "reference": "b1f172c01367843c9dcd664fb54d1694c25601f6",
-            "shasum": ""
-        },
-        "require": {
-            "yiisoft/yii2": "~2.0",
-            "yiisoft/yii2-jui": "~2.0"
-        },
-        "suggest": {
-            "yiisoft/yii2-bootstrap": "Used when using layout 'left-menu', 'right-menu' or 'top-menu'"
-        },
-        "time": "2015-08-23T07:36:04+00:00",
-        "type": "yii2-extension",
-        "extra": {
-            "branch-alias": {
-                "dev-1.0.master": "1.0.x-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "mdm\\admin\\": ""
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Misbahul Munir",
-                "email": "misbahuldmunir@gmail.com"
-            }
-        ],
-        "description": "Auth manager for Yii2 ",
-        "keywords": [
-            "admin",
-            "auth",
-            "yii"
-        ]
-    },
-    {
         "name": "kartik-v/yii2-krajee-base",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -3066,30 +2387,47 @@
         ]
     },
     {
-        "name": "timurmelnikov/yii2-panel-menu",
+        "name": "yiisoft/yii2",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/TimurMelnikov/yii2-panel-menu.git",
-            "reference": "dbe473473d36b0d7171391198ac13149199f06fa"
+            "url": "https://github.com/yiisoft/yii2-framework.git",
+            "reference": "a408e192198423c8d4206e4caf6a6bac878217aa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/TimurMelnikov/yii2-panel-menu/zipball/dbe473473d36b0d7171391198ac13149199f06fa",
-            "reference": "dbe473473d36b0d7171391198ac13149199f06fa",
+            "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a408e192198423c8d4206e4caf6a6bac878217aa",
+            "reference": "a408e192198423c8d4206e4caf6a6bac878217aa",
             "shasum": ""
         },
         "require": {
-            "yiisoft/yii2": "~2.0.0",
-            "yiisoft/yii2-bootstrap": "~2.0.3"
+            "bower-asset/inputmask": "~3.2.2 | ~3.3.5",
+            "bower-asset/jquery": "3.2.*@stable | 3.1.*@stable | 2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
+            "bower-asset/punycode": "1.3.*",
+            "bower-asset/yii2-pjax": "~2.0.1",
+            "cebe/markdown": "~1.0.0 | ~1.1.0",
+            "ext-ctype": "*",
+            "ext-mbstring": "*",
+            "ezyang/htmlpurifier": "~4.6",
+            "lib-pcre": "*",
+            "php": ">=5.4.0",
+            "yiisoft/yii2-composer": "~2.0.4"
         },
-        "time": "2015-05-30T08:25:13+00:00",
-        "type": "yii2-extension",
+        "time": "2017-09-29T20:02:09+00:00",
+        "bin": [
+            "yii"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
         "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "timurmelnikov\\widgets\\": ""
+                "yii\\": ""
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -3098,59 +2436,207 @@
         ],
         "authors": [
             {
-                "name": "Timur Melnikov",
-                "email": "melnikovt@gmail.com"
+                "name": "Qiang Xue",
+                "email": "qiang.xue@gmail.com",
+                "homepage": "http://www.yiiframework.com/",
+                "role": "Founder and project lead"
+            },
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Maurizio Domba",
+                "homepage": "http://mdomba.info/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Carsten Brandt",
+                "email": "mail@cebe.cc",
+                "homepage": "http://cebe.cc/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Timur Ruziev",
+                "email": "resurtm@gmail.com",
+                "homepage": "http://resurtm.com/",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Paul Klimov",
+                "email": "klimov.paul@gmail.com",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Dmitry Naumenko",
+                "email": "d.naumenko.a@gmail.com",
+                "role": "Core framework development"
+            },
+            {
+                "name": "Boudewijn Vahrmeijer",
+                "email": "info@dynasource.eu",
+                "homepage": "http://dynasource.eu",
+                "role": "Core framework development"
             }
         ],
-        "description": "Вертикальное меню bootstrap",
+        "description": "Yii PHP Framework Version 2",
+        "homepage": "http://www.yiiframework.com/",
         "keywords": [
-            "bootstrap",
-            "menu",
+            "framework",
             "yii2"
         ]
     },
     {
-        "name": "symfony/yaml",
-        "version": "3.4.x-dev",
-        "version_normalized": "3.4.9999999.9999999-dev",
+        "name": "amass/yii2-bootstrap-panel-widget",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/yaml.git",
-            "reference": "50c33cf46180f07d75cbec473cdcacacc316b266"
+            "url": "https://github.com/RexGalicie/Yii2-bootstrap-panel-widget.git",
+            "reference": "fc8e003cb3ce8f1568aad17879bce9297036040c"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/50c33cf46180f07d75cbec473cdcacacc316b266",
-            "reference": "50c33cf46180f07d75cbec473cdcacacc316b266",
+            "url": "https://api.github.com/repos/RexGalicie/Yii2-bootstrap-panel-widget/zipball/fc8e003cb3ce8f1568aad17879bce9297036040c",
+            "reference": "fc8e003cb3ce8f1568aad17879bce9297036040c",
             "shasum": ""
         },
         "require": {
-            "php": "^5.5.9|>=7.0.8"
+            "yiisoft/yii2": "*",
+            "yiisoft/yii2-bootstrap": "*"
         },
-        "conflict": {
-            "symfony/console": "<3.4"
+        "time": "2015-07-04T07:24:05+00:00",
+        "type": "yii2-extension",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "amass\\panel\\": ""
+            }
         },
-        "require-dev": {
-            "symfony/console": "~3.4|~4.0"
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Igor Moskal",
+                "email": "wearde.studio@gmail.com"
+            }
+        ],
+        "description": "Yii2 Bootstrap Panel",
+        "keywords": [
+            "bootstrap",
+            "extension",
+            "panel",
+            "yii2"
+        ]
+    },
+    {
+        "name": "bower-asset/datatables",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DataTables/DataTables.git",
+            "reference": "75a665f64f02982c0f4666b15a25c4670e5e6b18"
         },
-        "suggest": {
-            "symfony/console": "For validating YAML files using the lint command"
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DataTables/DataTables/zipball/75a665f64f02982c0f4666b15a25c4670e5e6b18",
+            "reference": "75a665f64f02982c0f4666b15a25c4670e5e6b18",
+            "shasum": null
         },
-        "time": "2017-09-29T11:19:35+00:00",
-        "type": "library",
+        "require": {
+            "bower-asset/jquery": ">=1.7.0"
+        },
+        "type": "bower-asset",
+        "installation-source": "source",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "bower-asset/datatables-tabletools",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/DataTables/TableTools.git",
+            "reference": "45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/DataTables/TableTools/zipball/45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7",
+            "reference": "45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7",
+            "shasum": null
+        },
+        "require": {
+            "bower-asset/datatables": ">=1.9.0",
+            "bower-asset/jquery": ">=1.7.0"
+        },
+        "type": "bower-asset",
+        "installation-source": "source"
+    },
+    {
+        "name": "bower-asset/datatables-bootstrap3",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Jowin/Datatables-Bootstrap3.git",
+            "reference": "45802ec4d337bdba6750f03b6472ddbb1d34608c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Jowin/Datatables-Bootstrap3/zipball/45802ec4d337bdba6750f03b6472ddbb1d34608c",
+            "reference": "45802ec4d337bdba6750f03b6472ddbb1d34608c",
+            "shasum": null
+        },
+        "require": {
+            "bower-asset/datatables": ">=1.9.4"
+        },
+        "type": "bower-asset",
+        "installation-source": "source",
+        "license": [
+            "README.md"
+        ]
+    },
+    {
+        "name": "fedemotta/yii2-widget-datatables",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fedemotta/yii2-widget-datatables.git",
+            "reference": "0fc4fe00f336e5060d959bebef3b44a52bb7097b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fedemotta/yii2-widget-datatables/zipball/0fc4fe00f336e5060d959bebef3b44a52bb7097b",
+            "reference": "0fc4fe00f336e5060d959bebef3b44a52bb7097b",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/datatables": ">= 1.9.4",
+            "bower-asset/datatables-bootstrap3": "*",
+            "bower-asset/datatables-tabletools": "*",
+            "bower-asset/jquery": ">= 1.7.0",
+            "yiisoft/yii2": "*"
+        },
+        "time": "2017-03-21T11:24:44+00:00",
+        "type": "yii2-extension",
         "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
+            "asset-installer-paths": {
+                "bower-asset-library": "vendor/bower"
             }
         },
         "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "Symfony\\Component\\Yaml\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
+                "fedemotta\\datatables\\": ""
+            }
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
@@ -3158,16 +2644,20 @@
         ],
         "authors": [
             {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
+                "name": "Federico Nicolás Motta",
+                "email": "fedemotta@gmail.com"
             }
         ],
-        "description": "Symfony Yaml Component",
-        "homepage": "https://symfony.com"
+        "description": "DataTables widget for Yii2",
+        "keywords": [
+            "datatables",
+            "extension",
+            "javascript",
+            "jquery",
+            "library",
+            "table",
+            "yii2"
+        ]
     },
     {
         "name": "phpunit/phpunit",
@@ -3252,135 +2742,6 @@
             "testing",
             "xunit"
         ]
-    },
-    {
-        "name": "symfony/console",
-        "version": "3.4.x-dev",
-        "version_normalized": "3.4.9999999.9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/console.git",
-            "reference": "bd2a2702ddf2a72edec7433a31a4cbdafaa90f25"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/console/zipball/bd2a2702ddf2a72edec7433a31a4cbdafaa90f25",
-            "reference": "bd2a2702ddf2a72edec7433a31a4cbdafaa90f25",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "symfony/debug": "~2.8|~3.0|~4.0",
-            "symfony/polyfill-mbstring": "~1.0"
-        },
-        "conflict": {
-            "symfony/dependency-injection": "<3.4",
-            "symfony/process": "<3.3"
-        },
-        "require-dev": {
-            "psr/log": "~1.0",
-            "symfony/config": "~3.3|~4.0",
-            "symfony/dependency-injection": "~3.4|~4.0",
-            "symfony/event-dispatcher": "~2.8|~3.0|~4.0",
-            "symfony/lock": "~3.4|~4.0",
-            "symfony/process": "~3.3|~4.0"
-        },
-        "suggest": {
-            "psr/log": "For using the console logger",
-            "symfony/event-dispatcher": "",
-            "symfony/lock": "",
-            "symfony/process": ""
-        },
-        "time": "2017-09-29T16:59:44+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\Console\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony Console Component",
-        "homepage": "https://symfony.com"
-    },
-    {
-        "name": "symfony/dom-crawler",
-        "version": "3.4.x-dev",
-        "version_normalized": "3.4.9999999.9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/symfony/dom-crawler.git",
-            "reference": "28c1dd075b63f470d17f2a421b984ba5761aa55d"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/28c1dd075b63f470d17f2a421b984ba5761aa55d",
-            "reference": "28c1dd075b63f470d17f2a421b984ba5761aa55d",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9|>=7.0.8",
-            "symfony/polyfill-mbstring": "~1.0"
-        },
-        "require-dev": {
-            "symfony/css-selector": "~2.8|~3.0|~4.0"
-        },
-        "suggest": {
-            "symfony/css-selector": ""
-        },
-        "time": "2017-09-29T10:22:06+00:00",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "3.4-dev"
-            }
-        },
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Symfony\\Component\\DomCrawler\\": ""
-            },
-            "exclude-from-classmap": [
-                "/Tests/"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com"
-            },
-            {
-                "name": "Symfony Community",
-                "homepage": "https://symfony.com/contributors"
-            }
-        ],
-        "description": "Symfony DomCrawler Component",
-        "homepage": "https://symfony.com"
     },
     {
         "name": "codeception/base",
@@ -3477,153 +2838,39 @@
         ]
     },
     {
-        "name": "amass/yii2-bootstrap-panel-widget",
+        "name": "fzaninotto/faker",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
         "source": {
             "type": "git",
-            "url": "https://github.com/RexGalicie/Yii2-bootstrap-panel-widget.git",
-            "reference": "fc8e003cb3ce8f1568aad17879bce9297036040c"
+            "url": "https://github.com/fzaninotto/Faker.git",
+            "reference": "2a1e07740c76b0c9da9c5708e8b3e927fc9a2796"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/RexGalicie/Yii2-bootstrap-panel-widget/zipball/fc8e003cb3ce8f1568aad17879bce9297036040c",
-            "reference": "fc8e003cb3ce8f1568aad17879bce9297036040c",
+            "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/2a1e07740c76b0c9da9c5708e8b3e927fc9a2796",
+            "reference": "2a1e07740c76b0c9da9c5708e8b3e927fc9a2796",
             "shasum": ""
         },
         "require": {
-            "yiisoft/yii2": "*",
-            "yiisoft/yii2-bootstrap": "*"
+            "php": "^5.3.3 || ^7.0"
         },
-        "time": "2015-07-04T07:24:05+00:00",
-        "type": "yii2-extension",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "amass\\panel\\": ""
-            }
+        "require-dev": {
+            "ext-intl": "*",
+            "phpunit/phpunit": "^4.0 || ^5.0",
+            "squizlabs/php_codesniffer": "^1.5"
         },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Igor Moskal",
-                "email": "wearde.studio@gmail.com"
-            }
-        ],
-        "description": "Yii2 Bootstrap Panel",
-        "keywords": [
-            "bootstrap",
-            "extension",
-            "panel",
-            "yii2"
-        ]
-    },
-    {
-        "name": "bower-asset/datatables",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/DataTables/DataTables.git",
-            "reference": "75a665f64f02982c0f4666b15a25c4670e5e6b18"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/DataTables/DataTables/zipball/75a665f64f02982c0f4666b15a25c4670e5e6b18",
-            "reference": "75a665f64f02982c0f4666b15a25c4670e5e6b18",
-            "shasum": null
-        },
-        "require": {
-            "bower-asset/jquery": ">=1.7.0"
-        },
-        "type": "bower-asset",
-        "installation-source": "dist",
-        "license": [
-            "MIT"
-        ]
-    },
-    {
-        "name": "bower-asset/datatables-tabletools",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/DataTables/TableTools.git",
-            "reference": "45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/DataTables/TableTools/zipball/45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7",
-            "reference": "45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7",
-            "shasum": null
-        },
-        "require": {
-            "bower-asset/datatables": ">=1.9.0",
-            "bower-asset/jquery": ">=1.7.0"
-        },
-        "type": "bower-asset",
-        "installation-source": "dist"
-    },
-    {
-        "name": "bower-asset/datatables-bootstrap3",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/Jowin/Datatables-Bootstrap3.git",
-            "reference": "45802ec4d337bdba6750f03b6472ddbb1d34608c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/Jowin/Datatables-Bootstrap3/zipball/45802ec4d337bdba6750f03b6472ddbb1d34608c",
-            "reference": "45802ec4d337bdba6750f03b6472ddbb1d34608c",
-            "shasum": null
-        },
-        "require": {
-            "bower-asset/datatables": ">=1.9.4"
-        },
-        "type": "bower-asset",
-        "installation-source": "dist",
-        "license": [
-            "README.md"
-        ]
-    },
-    {
-        "name": "fedemotta/yii2-widget-datatables",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/fedemotta/yii2-widget-datatables.git",
-            "reference": "0fc4fe00f336e5060d959bebef3b44a52bb7097b"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/fedemotta/yii2-widget-datatables/zipball/0fc4fe00f336e5060d959bebef3b44a52bb7097b",
-            "reference": "0fc4fe00f336e5060d959bebef3b44a52bb7097b",
-            "shasum": ""
-        },
-        "require": {
-            "bower-asset/datatables": ">= 1.9.4",
-            "bower-asset/datatables-bootstrap3": "*",
-            "bower-asset/datatables-tabletools": "*",
-            "bower-asset/jquery": ">= 1.7.0",
-            "yiisoft/yii2": "*"
-        },
-        "time": "2017-03-21T11:24:44+00:00",
-        "type": "yii2-extension",
+        "time": "2017-09-29T08:05:07+00:00",
+        "type": "library",
         "extra": {
-            "asset-installer-paths": {
-                "bower-asset-library": "vendor/bower"
+            "branch-alias": {
+                "dev-master": "1.8-dev"
             }
         },
-        "installation-source": "dist",
+        "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "fedemotta\\datatables\\": ""
+                "Faker\\": "src/Faker/"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
@@ -3632,19 +2879,491 @@
         ],
         "authors": [
             {
-                "name": "Federico Nicolás Motta",
-                "email": "fedemotta@gmail.com"
+                "name": "François Zaninotto"
             }
         ],
-        "description": "DataTables widget for Yii2",
+        "description": "Faker is a PHP library that generates fake data for you.",
         "keywords": [
-            "datatables",
-            "extension",
-            "javascript",
-            "jquery",
-            "library",
-            "table",
-            "yii2"
+            "data",
+            "faker",
+            "fixtures"
         ]
+    },
+    {
+        "name": "symfony/css-selector",
+        "version": "3.4.x-dev",
+        "version_normalized": "3.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/css-selector.git",
+            "reference": "f38b363faac4d647f53ef389203436e6c3b27f01"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/f38b363faac4d647f53ef389203436e6c3b27f01",
+            "reference": "f38b363faac4d647f53ef389203436e6c3b27f01",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2017-10-02T06:49:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\CssSelector\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jean-François Simon",
+                "email": "jeanfrancois.simon@sensiolabs.com"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony CssSelector Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "3.4.x-dev",
+        "version_normalized": "3.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/yaml.git",
+            "reference": "56b7cf3671ccd10ece8c278992c8ae89cf448e23"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/56b7cf3671ccd10ece8c278992c8ae89cf448e23",
+            "reference": "56b7cf3671ccd10ece8c278992c8ae89cf448e23",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "conflict": {
+            "symfony/console": "<3.4"
+        },
+        "require-dev": {
+            "symfony/console": "~3.4|~4.0"
+        },
+        "suggest": {
+            "symfony/console": "For validating YAML files using the lint command"
+        },
+        "time": "2017-10-02T06:49:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Yaml\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/console",
+        "version": "3.4.x-dev",
+        "version_normalized": "3.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/console.git",
+            "reference": "e6f90deda7ded93b1c09d85c47f17d945e2e769b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/console/zipball/e6f90deda7ded93b1c09d85c47f17d945e2e769b",
+            "reference": "e6f90deda7ded93b1c09d85c47f17d945e2e769b",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/debug": "~2.8|~3.0|~4.0",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<3.4",
+            "symfony/process": "<3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~3.3|~4.0",
+            "symfony/dependency-injection": "~3.4|~4.0",
+            "symfony/event-dispatcher": "~2.8|~3.0|~4.0",
+            "symfony/lock": "~3.4|~4.0",
+            "symfony/process": "~3.3|~4.0"
+        },
+        "suggest": {
+            "psr/log": "For using the console logger",
+            "symfony/event-dispatcher": "",
+            "symfony/lock": "",
+            "symfony/process": ""
+        },
+        "time": "2017-10-02T06:49:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Console\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Console Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/dom-crawler",
+        "version": "3.4.x-dev",
+        "version_normalized": "3.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/dom-crawler.git",
+            "reference": "a7a9ef79fc160ebd64c4623c7b1d01dcba374aae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/a7a9ef79fc160ebd64c4623c7b1d01dcba374aae",
+            "reference": "a7a9ef79fc160ebd64c4623c7b1d01dcba374aae",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "require-dev": {
+            "symfony/css-selector": "~2.8|~3.0|~4.0"
+        },
+        "suggest": {
+            "symfony/css-selector": ""
+        },
+        "time": "2017-10-02T06:49:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\DomCrawler\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony DomCrawler Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/debug",
+        "version": "3.4.x-dev",
+        "version_normalized": "3.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/debug.git",
+            "reference": "44c8fb3f90cb8d9c9ebb10890ef4d945e3094e62"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/debug/zipball/44c8fb3f90cb8d9c9ebb10890ef4d945e3094e62",
+            "reference": "44c8fb3f90cb8d9c9ebb10890ef4d945e3094e62",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "psr/log": "~1.0"
+        },
+        "conflict": {
+            "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+        },
+        "require-dev": {
+            "symfony/http-kernel": "~2.8|~3.0|~4.0"
+        },
+        "time": "2017-10-02T06:49:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Debug\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Debug Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/browser-kit",
+        "version": "3.4.x-dev",
+        "version_normalized": "3.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/browser-kit.git",
+            "reference": "95e5e02acda550f6edafb2f21e4aa1075b9b401e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/browser-kit/zipball/95e5e02acda550f6edafb2f21e4aa1075b9b401e",
+            "reference": "95e5e02acda550f6edafb2f21e4aa1075b9b401e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/dom-crawler": "~2.8|~3.0|~4.0"
+        },
+        "require-dev": {
+            "symfony/css-selector": "~2.8|~3.0|~4.0",
+            "symfony/process": "~2.8|~3.0|~4.0"
+        },
+        "suggest": {
+            "symfony/process": ""
+        },
+        "time": "2017-10-02T06:49:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\BrowserKit\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony BrowserKit Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/event-dispatcher",
+        "version": "3.4.x-dev",
+        "version_normalized": "3.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/event-dispatcher.git",
+            "reference": "a2a1e29f332c3989a0e2c592707885f452eb6857"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/a2a1e29f332c3989a0e2c592707885f452eb6857",
+            "reference": "a2a1e29f332c3989a0e2c592707885f452eb6857",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "conflict": {
+            "symfony/dependency-injection": "<3.3"
+        },
+        "require-dev": {
+            "psr/log": "~1.0",
+            "symfony/config": "~2.8|~3.0|~4.0",
+            "symfony/dependency-injection": "~3.3|~4.0",
+            "symfony/expression-language": "~2.8|~3.0|~4.0",
+            "symfony/stopwatch": "~2.8|~3.0|~4.0"
+        },
+        "suggest": {
+            "symfony/dependency-injection": "",
+            "symfony/http-kernel": ""
+        },
+        "time": "2017-10-02T06:49:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\EventDispatcher\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony EventDispatcher Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/finder",
+        "version": "3.4.x-dev",
+        "version_normalized": "3.4.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git",
+            "reference": "6db4a8ddcd86146761130989eb348451de03de74"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/6db4a8ddcd86146761130989eb348451de03de74",
+            "reference": "6db4a8ddcd86146761130989eb348451de03de74",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2017-10-02T06:49:52+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Finder\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Finder Component",
+        "homepage": "https://symfony.com"
     }
 ]
