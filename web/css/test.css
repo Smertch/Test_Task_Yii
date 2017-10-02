@@ -1,0 +1,113 @@
+#ex-container {
+    display: flex;
+    overflow-x: hidden;
+    flex-direction: column;
+    margin-left: 220px;
+    min-height: 100vh;
+    transition: margin .3s;
+    background-color: rgb(244, 248, 251);
+}
+
+#left-menu {
+    position: fixed;
+    top: 50px;
+    width: 220px;
+    min-width: 220px;
+    display: inline-block;
+    float: left;
+    height: 100%;
+    background: #354052;
+    transition: left .3s;
+    left: 0;
+    z-index: 1;
+}
+
+#left-menu.condensed {
+    left: -220px;
+}
+
+#left-menu-toggle.condensed {
+    left: 0;
+    opacity: .8;
+    border-radius: 0 5px 5px 0;
+}
+
+#ex-container.expanded {
+    margin-left: 0;
+}
+
+#left-menu-toggle {
+    position: fixed;
+    top: 50px;
+    left: 164px;
+    height: 37px;
+    width: 56px;
+    z-index: 2;
+    background: #414f67;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    transition: left .3s;
+}
+
+#left-menu .panel .panel-heading {
+    color: #FAFBFB;
+    background-color: #414f67;
+    border-color: #414f67;
+}
+
+#left-menu .panel li {
+    background-color: #414f67;
+    margin-top: 0;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+#left-menu .panel .nav-pills li.active:nth-child(1)>a,
+#left-menu .panel .nav-pills li.active:nth-child(1)>a:hover,
+#left-menu .panel .nav-pills li.active:nth-child(1)>a:focus {
+    color: #FAFBFB;
+    background-color: #2b3340;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+a{
+    text-decoration: none;
+    color: #ddd
+}
+
+body {
+    padding-top: 60px;
+    padding-left: 65px;
+
+}
+
+.btn-default {
+    top: 25%;
+    left:25%;
+    color: #999;
+    background: #fffccc;
+}

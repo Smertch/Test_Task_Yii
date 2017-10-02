@@ -4,39 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "400efac9f172d8a7668476c55532a1c1",
+    "content-hash": "b5bd099a414eaa9ce358fdbd4c89601f",
     "packages": [
         {
-            "name": "2amigos/yii2-arrayquery-component",
+            "name": "amass/yii2-bootstrap-panel-widget",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/2amigos/yii2-arrayquery-component.git",
-                "reference": "7bbcc4eb868ff30587768999e436d14b7979fec6"
+                "url": "https://github.com/RexGalicie/Yii2-bootstrap-panel-widget.git",
+                "reference": "fc8e003cb3ce8f1568aad17879bce9297036040c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/2amigos/yii2-arrayquery-component/zipball/7bbcc4eb868ff30587768999e436d14b7979fec6",
-                "reference": "7bbcc4eb868ff30587768999e436d14b7979fec6",
+                "url": "https://api.github.com/repos/RexGalicie/Yii2-bootstrap-panel-widget/zipball/fc8e003cb3ce8f1568aad17879bce9297036040c",
+                "reference": "fc8e003cb3ce8f1568aad17879bce9297036040c",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "~2.0.11"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "phpunit/phpunit": "~5.6",
-                "scrutinizer/ocular": "~1.1"
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-bootstrap": "*"
             },
             "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "dosamigos\\arrayquery\\": "src"
+                    "amass\\panel\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -45,24 +36,18 @@
             ],
             "authors": [
                 {
-                    "name": "2amigOS! Consulting Group",
-                    "email": "hola@2amigos.us",
-                    "homepage": "http://2amigos.us",
-                    "role": "Developer"
+                    "name": "Igor Moskal",
+                    "email": "wearde.studio@gmail.com"
                 }
             ],
-            "description": "Yii2 component that allows for searching/filtering the elements of an array.",
-            "homepage": "http://yiiwheels.com/extension/arrayquery-component",
+            "description": "Yii2 Bootstrap Panel",
             "keywords": [
-                "2amigos",
-                "arrayquery",
-                "component",
+                "bootstrap",
                 "extension",
-                "yii",
-                "yii 2",
+                "panel",
                 "yii2"
             ],
-            "time": "2017-07-05T14:40:16+00:00"
+            "time": "2015-07-04T07:24:05+00:00"
         },
         {
             "name": "bower-asset/bootstrap",
@@ -85,6 +70,70 @@
             "license": [
                 "MIT"
             ]
+        },
+        {
+            "name": "bower-asset/datatables",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/DataTables.git",
+                "reference": "75a665f64f02982c0f4666b15a25c4670e5e6b18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/75a665f64f02982c0f4666b15a25c4670e5e6b18",
+                "reference": "75a665f64f02982c0f4666b15a25c4670e5e6b18",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/datatables-bootstrap3",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Jowin/Datatables-Bootstrap3.git",
+                "reference": "45802ec4d337bdba6750f03b6472ddbb1d34608c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Jowin/Datatables-Bootstrap3/zipball/45802ec4d337bdba6750f03b6472ddbb1d34608c",
+                "reference": "45802ec4d337bdba6750f03b6472ddbb1d34608c",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.9.4"
+            },
+            "type": "bower-asset",
+            "license": [
+                "README.md"
+            ]
+        },
+        {
+            "name": "bower-asset/datatables-tabletools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/TableTools.git",
+                "reference": "45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/TableTools/zipball/45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7",
+                "reference": "45b5b56b66c2f9526f4d20178ce01f99a6ee2ad7",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.9.0",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/inputmask",
@@ -126,25 +175,6 @@
             "license": [
                 "MIT"
             ]
-        },
-        {
-            "name": "bower-asset/jquery-ui",
-            "version": "1.11.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/jqueryui.git",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "shasum": null
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.6"
-            },
-            "type": "bower-asset"
         },
         {
             "name": "bower-asset/punycode",
@@ -292,6 +322,60 @@
             "time": "2017-06-03T02:28:16+00:00"
         },
         {
+            "name": "fedemotta/yii2-widget-datatables",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fedemotta/yii2-widget-datatables.git",
+                "reference": "0fc4fe00f336e5060d959bebef3b44a52bb7097b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fedemotta/yii2-widget-datatables/zipball/0fc4fe00f336e5060d959bebef3b44a52bb7097b",
+                "reference": "0fc4fe00f336e5060d959bebef3b44a52bb7097b",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">= 1.9.4",
+                "bower-asset/datatables-bootstrap3": "*",
+                "bower-asset/datatables-tabletools": "*",
+                "bower-asset/jquery": ">= 1.7.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "asset-installer-paths": {
+                    "bower-asset-library": "vendor/bower"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "fedemotta\\datatables\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Federico Nicolás Motta",
+                    "email": "fedemotta@gmail.com"
+                }
+            ],
+            "description": "DataTables widget for Yii2",
+            "keywords": [
+                "datatables",
+                "extension",
+                "javascript",
+                "jquery",
+                "library",
+                "table",
+                "yii2"
+            ],
+            "time": "2017-03-21T11:24:44+00:00"
+        },
+        {
             "name": "kartik-v/yii2-krajee-base",
             "version": "dev-master",
             "source": {
@@ -392,56 +476,6 @@
             "time": "2015-04-21T15:38:40+00:00"
         },
         {
-            "name": "mdmsoft/yii2-admin",
-            "version": "dev-1.0.master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mdmsoft/yii2-admin.git",
-                "reference": "b1f172c01367843c9dcd664fb54d1694c25601f6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mdmsoft/yii2-admin/zipball/b1f172c01367843c9dcd664fb54d1694c25601f6",
-                "reference": "b1f172c01367843c9dcd664fb54d1694c25601f6",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0",
-                "yiisoft/yii2-jui": "~2.0"
-            },
-            "suggest": {
-                "yiisoft/yii2-bootstrap": "Used when using layout 'left-menu', 'right-menu' or 'top-menu'"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.0.master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "mdm\\admin\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Misbahul Munir",
-                    "email": "misbahuldmunir@gmail.com"
-                }
-            ],
-            "description": "Auth manager for Yii2 ",
-            "keywords": [
-                "admin",
-                "auth",
-                "yii"
-            ],
-            "time": "2015-08-23T07:36:04+00:00"
-        },
-        {
             "name": "swiftmailer/swiftmailer",
             "version": "5.x-dev",
             "source": {
@@ -494,102 +528,6 @@
                 "mailer"
             ],
             "time": "2017-08-29T20:43:58+00:00"
-        },
-        {
-            "name": "timurmelnikov/yii2-panel-menu",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TimurMelnikov/yii2-panel-menu.git",
-                "reference": "dbe473473d36b0d7171391198ac13149199f06fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TimurMelnikov/yii2-panel-menu/zipball/dbe473473d36b0d7171391198ac13149199f06fa",
-                "reference": "dbe473473d36b0d7171391198ac13149199f06fa",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "~2.0.0",
-                "yiisoft/yii2-bootstrap": "~2.0.3"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "timurmelnikov\\widgets\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Timur Melnikov",
-                    "email": "melnikovt@gmail.com"
-                }
-            ],
-            "description": "Вертикальное меню bootstrap",
-            "keywords": [
-                "bootstrap",
-                "menu",
-                "yii2"
-            ],
-            "time": "2015-05-30T08:25:13+00:00"
-        },
-        {
-            "name": "yii2mod/yii2-rbac",
-            "version": "2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yii2mod/yii2-rbac.git",
-                "reference": "053a991ffc7c9660a6bb1272de4f1c658c8eac7b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yii2mod/yii2-rbac/zipball/053a991ffc7c9660a6bb1272de4f1c658c8eac7b",
-                "reference": "053a991ffc7c9660a6bb1272de4f1c658c8eac7b",
-                "shasum": ""
-            },
-            "require": {
-                "2amigos/yii2-arrayquery-component": "*",
-                "php": ">=5.6",
-                "yiisoft/yii2": "^2.0.8",
-                "yiisoft/yii2-jui": "*"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.0"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "yii2mod\\rbac\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dmitry Semenov",
-                    "email": "disemx@gmail.com"
-                },
-                {
-                    "name": "Igor Chepurnoy",
-                    "email": "igorzfort@gmail.com"
-                }
-            ],
-            "description": "RBAC management module for Yii2",
-            "keywords": [
-                "rbac gui",
-                "rbac management",
-                "rbac module",
-                "yii2",
-                "yii2 rbac",
-                "yii2-rbac"
-            ],
-            "time": "2017-02-08T13:25:19+00:00"
         },
         {
             "name": "yiisoft/yii2",
@@ -788,52 +726,6 @@
             "time": "2017-08-01T14:22:25+00:00"
         },
         {
-            "name": "yiisoft/yii2-jui",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yiisoft/yii2-jui.git",
-                "reference": "75e6f78010e9e9a60d7eecc58c8ad5655778535d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/75e6f78010e9e9a60d7eecc58c8ad5655778535d",
-                "reference": "75e6f78010e9e9a60d7eecc58c8ad5655778535d",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery-ui": "1.11.*@stable",
-                "yiisoft/yii2": "~2.0.4"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "yii\\jui\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com"
-                }
-            ],
-            "description": "The Jquery UI extension for the Yii framework",
-            "keywords": [
-                "jQuery UI",
-                "yii2"
-            ],
-            "time": "2017-08-01T19:29:58+00:00"
-        },
-        {
             "name": "yiisoft/yii2-swiftmailer",
             "version": "2.0.7",
             "source": {
@@ -885,6 +777,64 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "2amigos/yii2-arrayquery-component",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/2amigos/yii2-arrayquery-component.git",
+                "reference": "7bbcc4eb868ff30587768999e436d14b7979fec6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/2amigos/yii2-arrayquery-component/zipball/7bbcc4eb868ff30587768999e436d14b7979fec6",
+                "reference": "7bbcc4eb868ff30587768999e436d14b7979fec6",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.11"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "~5.6",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "dosamigos\\arrayquery\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "2amigOS! Consulting Group",
+                    "email": "hola@2amigos.us",
+                    "homepage": "http://2amigos.us",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Yii2 component that allows for searching/filtering the elements of an array.",
+            "homepage": "http://yiiwheels.com/extension/arrayquery-component",
+            "keywords": [
+                "2amigos",
+                "arrayquery",
+                "component",
+                "extension",
+                "yii",
+                "yii 2",
+                "yii2"
+            ],
+            "time": "2017-07-05T14:40:16+00:00"
+        },
         {
             "name": "behat/gherkin",
             "version": "dev-master",
@@ -943,6 +893,25 @@
                 "parser"
             ],
             "time": "2017-08-30T11:04:59+00:00"
+        },
+        {
+            "name": "bower-asset/jquery-ui",
+            "version": "1.11.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/jqueryui.git",
+                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
+                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
+                "shasum": null
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.6"
+            },
+            "type": "bower-asset"
         },
         {
             "name": "bower-asset/typeahead.js",
@@ -1299,6 +1268,56 @@
                 "url"
             ],
             "time": "2017-07-17T09:11:21+00:00"
+        },
+        {
+            "name": "mdmsoft/yii2-admin",
+            "version": "dev-1.0.master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mdmsoft/yii2-admin.git",
+                "reference": "b1f172c01367843c9dcd664fb54d1694c25601f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdmsoft/yii2-admin/zipball/b1f172c01367843c9dcd664fb54d1694c25601f6",
+                "reference": "b1f172c01367843c9dcd664fb54d1694c25601f6",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0",
+                "yiisoft/yii2-jui": "~2.0"
+            },
+            "suggest": {
+                "yiisoft/yii2-bootstrap": "Used when using layout 'left-menu', 'right-menu' or 'top-menu'"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "mdm\\admin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Misbahul Munir",
+                    "email": "misbahuldmunir@gmail.com"
+                }
+            ],
+            "description": "Auth manager for Yii2 ",
+            "keywords": [
+                "admin",
+                "auth",
+                "yii"
+            ],
+            "time": "2015-08-23T07:36:04+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3155,6 +3174,48 @@
             "time": "2017-09-29T11:19:35+00:00"
         },
         {
+            "name": "timurmelnikov/yii2-panel-menu",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TimurMelnikov/yii2-panel-menu.git",
+                "reference": "dbe473473d36b0d7171391198ac13149199f06fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TimurMelnikov/yii2-panel-menu/zipball/dbe473473d36b0d7171391198ac13149199f06fa",
+                "reference": "dbe473473d36b0d7171391198ac13149199f06fa",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0",
+                "yiisoft/yii2-bootstrap": "~2.0.3"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "timurmelnikov\\widgets\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Timur Melnikov",
+                    "email": "melnikovt@gmail.com"
+                }
+            ],
+            "description": "Вертикальное меню bootstrap",
+            "keywords": [
+                "bootstrap",
+                "menu",
+                "yii2"
+            ],
+            "time": "2015-05-30T08:25:13+00:00"
+        },
+        {
             "name": "webmozart/assert",
             "version": "dev-master",
             "source": {
@@ -3203,6 +3264,60 @@
                 "validate"
             ],
             "time": "2016-11-23T20:04:41+00:00"
+        },
+        {
+            "name": "yii2mod/yii2-rbac",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yii2mod/yii2-rbac.git",
+                "reference": "053a991ffc7c9660a6bb1272de4f1c658c8eac7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yii2mod/yii2-rbac/zipball/053a991ffc7c9660a6bb1272de4f1c658c8eac7b",
+                "reference": "053a991ffc7c9660a6bb1272de4f1c658c8eac7b",
+                "shasum": ""
+            },
+            "require": {
+                "2amigos/yii2-arrayquery-component": "*",
+                "php": ">=5.6",
+                "yiisoft/yii2": "^2.0.8",
+                "yiisoft/yii2-jui": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2mod\\rbac\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Semenov",
+                    "email": "disemx@gmail.com"
+                },
+                {
+                    "name": "Igor Chepurnoy",
+                    "email": "igorzfort@gmail.com"
+                }
+            ],
+            "description": "RBAC management module for Yii2",
+            "keywords": [
+                "rbac gui",
+                "rbac management",
+                "rbac module",
+                "yii2",
+                "yii2 rbac",
+                "yii2-rbac"
+            ],
+            "time": "2017-02-08T13:25:19+00:00"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -3350,11 +3465,59 @@
                 "yii2"
             ],
             "time": "2017-09-21T12:31:17+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-jui",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-jui.git",
+                "reference": "75e6f78010e9e9a60d7eecc58c8ad5655778535d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/75e6f78010e9e9a60d7eecc58c8ad5655778535d",
+                "reference": "75e6f78010e9e9a60d7eecc58c8ad5655778535d",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery-ui": "1.11.*@stable",
+                "yiisoft/yii2": "~2.0.4"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\jui\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Qiang Xue",
+                    "email": "qiang.xue@gmail.com"
+                }
+            ],
+            "description": "The Jquery UI extension for the Yii framework",
+            "keywords": [
+                "jQuery UI",
+                "yii2"
+            ],
+            "time": "2017-08-01T19:29:58+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "amass/yii2-bootstrap-panel-widget": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

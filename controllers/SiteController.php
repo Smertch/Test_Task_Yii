@@ -5,9 +5,7 @@ namespace app\controllers;
 use app\models\AddImagesForm;
 use app\models\ImagesUpload;
 use app\models\Images;
-
 use Yii;
-use yii\data\Pagination;
 use yii\helpers\Html;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -17,45 +15,11 @@ use yii\web\UploadedFile;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use app\models\SignupForm;
+use app\models\User;
 
 
 class SiteController extends Controller
 {
-    /**
-     * @inheritdoc
-     */
-    public function behaviors()
-    {
-        return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'only' => ['logout', 'signup', 'about'],
-                'rules' => [
-                    [
-                        'actions' => ['signup'],
-                        'allow' => true,
-                        'roles' => ['?'],
-                    ],
-                    [
-                        'actions' => ['logout'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                    [
-                        'actions' => ['about'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                ],
-            ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
-            ],
-        ];
-    }
 
     /**
      * @inheritdoc
@@ -74,14 +38,15 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays homepage.
-     *
      * @return string
      */
     public function actionIndex()
     {
-
-        return $this->render('index');
+        $images = Images::getAll();
+        return $this->render('index',
+            [
+                'images' => $images
+            ]);
     }
 
     /**
@@ -99,9 +64,7 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->goBack();
         }
-        /*else if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();}*/
-            else {
+        else {
             return $this->render('login', [
                 'model' => $model,
             ]);
@@ -120,30 +83,16 @@ class SiteController extends Controller
         return $this->goHome();
     }
 
-    /**
-     * Displays contact page.
-     *
-     * @return Response|string
-     */
-    public function actionContact()
-    {
-        $model = new ContactForm();
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
-    }
+
 
     /**
      * Displays about page.
      *
      * @return string
      */
-    public function actionAbout()
+    public function actionUser()
     {
-       /* if (!\Yii::$app->user->can('about')) {
-            throw new ForbiddenHttpException('Access denied');
-        }*/
-        return $this->render('about');
+        return $this->render('user');
     }
 
     /**
@@ -170,30 +119,8 @@ class SiteController extends Controller
     /**
      * @return string
      */
-    public function actionImages (){
-        $img = Images::find();
-
-        $pagination = new Pagination([
-            'defaultPageSize' => 10,
-            'totalCount' => $img->count()
-        ]);
-        $images = $img->offset($pagination->offset)
-            ->limit($pagination->limit)
-            ->all();
-
-        return $this->render('images',[
-           'images' => $images,
-           'pagination' => $pagination,
-            'name' => Yii::$app->session->get('name')
-
-
-        ]);
-    }
-
-    /**
-     * @return string
-     */
-    public function actionAddImageForm(){
+    public function actionAddImageForm()
+    {
         $form = new AddImagesForm;
         $img = new ImagesUpload();
         $image = new Images();
@@ -206,6 +133,21 @@ class SiteController extends Controller
         return $this->render('addImagesForm', [
             'form' => $form
         ]);
+    }
+
+    /**
+     * @return array
+     */
+    public function actionSample()
+    {
+        if (Yii::$app->request->isAjax) {
+            $data = User::getAll();
+            /*$data['data'] = json_encode($user);*/
+            \Yii::$app->response->format = \yii\web\Response::FORMAT_JSON;
+            return [
+                'data' =>$data
+            ];
+        }
     }
 
 }

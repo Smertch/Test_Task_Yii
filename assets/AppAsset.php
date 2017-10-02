@@ -19,12 +19,15 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         'css/site.css',
+        'css/test.css',
     ];
     public $js = [
-        'js/test.js'
+        'js/test.js',
+        'js/user.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+        'fedemotta\datatables\DataTablesAsset',
     ];
 }

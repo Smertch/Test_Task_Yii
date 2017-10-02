@@ -111,4 +111,22 @@ return array (
       '@timurmelnikov/widgets' => $vendorDir . '/timurmelnikov/yii2-panel-menu',
     ),
   ),
+  'amass/yii2-bootstrap-panel-widget' => 
+  array (
+    'name' => 'amass/yii2-bootstrap-panel-widget',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@amass/panel' => $vendorDir . '/amass/yii2-bootstrap-panel-widget',
+    ),
+  ),
+  'fedemotta/yii2-widget-datatables' => 
+  array (
+    'name' => 'fedemotta/yii2-widget-datatables',
+    'version' => '9999999-dev',
+    'alias' => 
+    array (
+      '@fedemotta/datatables' => $vendorDir . '/fedemotta/yii2-widget-datatables',
+    ),
+  ),
 );

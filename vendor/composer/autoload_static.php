@@ -44,6 +44,10 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
             'kartik\\sidenav\\' => 15,
             'kartik\\base\\' => 12,
         ),
+        'f' => 
+        array (
+            'fedemotta\\datatables\\' => 21,
+        ),
         'd' => 
         array (
             'dosamigos\\arrayquery\\' => 21,
@@ -51,6 +55,10 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
+        ),
+        'a' => 
+        array (
+            'amass\\panel\\' => 12,
         ),
         'W' => 
         array (
@@ -153,6 +161,10 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
         array (
             0 => __DIR__ . '/..' . '/kartik-v/yii2-krajee-base',
         ),
+        'fedemotta\\datatables\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fedemotta/yii2-widget-datatables',
+        ),
         'dosamigos\\arrayquery\\' => 
         array (
             0 => __DIR__ . '/..' . '/2amigos/yii2-arrayquery-component/src',
@@ -160,6 +172,10 @@ class ComposerStaticInit6753bd71e5c71edd1328cb63904f0b06
         'cebe\\markdown\\' => 
         array (
             0 => __DIR__ . '/..' . '/cebe/markdown',
+        ),
+        'amass\\panel\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/amass/yii2-bootstrap-panel-widget',
         ),
         'Webmozart\\Assert\\' => 
         array (
