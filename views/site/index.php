@@ -6,7 +6,7 @@ use yii\bootstrap\Carousel;
 <!--main content start-->
 
 <div class="container text-center">
-
+<? if ($images):?>
     <h1> Click Me </h1>
     <!-- Large modal -->
     <button class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
@@ -40,4 +40,8 @@ use yii\bootstrap\Carousel;
             </div>
         </div>
     </div>
+    <? endif;?>
+    <?php  if (!$images): ?>
+        <h1>Add images</h1>
+    <? endif;?>
 </div>
